@@ -8,6 +8,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = false
 
+vim.cmd([[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]])
 
 vim.opt.incsearch = true
 
