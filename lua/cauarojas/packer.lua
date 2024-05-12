@@ -56,4 +56,5 @@ return require("packer").startup(function(use)
             require("toggleterm").setup()
         end,
     })
+    use("andweeb/presence.nvim")
 end)
