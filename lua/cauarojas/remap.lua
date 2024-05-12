@@ -21,5 +21,6 @@ end)
 vim.keymap.set("v", "<leader>f", function()
 	vim.lsp.buf.range_format()
 end)
+vim.keymap.set("n", "<leader>tr", vim.cmd.NvimTreeToggle)
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])

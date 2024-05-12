@@ -22,7 +22,6 @@ return require("packer").startup(function(use)
 		requires = {
 			{ "williamboman/mason.nvim" },
 			{ "williamboman/mason-lspconfig.nvim" },
-
 			{ "neovim/nvim-lspconfig" },
 			{ "hrsh7th/nvim-cmp" },
 			{ "hrsh7th/cmp-nvim-lsp" },
@@ -33,4 +32,20 @@ return require("packer").startup(function(use)
 	use({ "nvim-lua/plenary.nvim" })
 	use({ "github/copilot.vim" })
 	use({ "CopilotC-Nvim/CopilotChat.nvim" })
+	use("nvim-tree/nvim-web-devicons")
+	use("nvim-tree/nvim-tree.lua")
+	use({
+		"nvimdev/dashboard-nvim",
+		event = "VimEnter",
+		config = function()
+			require("dashboard").setup({
+				-- config
+			})
+		end,
+		requires = { "nvim-tree/nvim-web-devicons" },
+	})
+	use({
+		"nvim-lualine/lualine.nvim",
+		requires = { "nvim-tree/nvim-web-devicons", opt = true },
+	}) 
 end)
