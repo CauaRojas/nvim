@@ -57,4 +57,5 @@ return require("packer").startup(function(use)
         end,
     })
     use("andweeb/presence.nvim")
+    use("archibate/lualine-time")
 end)
