@@ -58,4 +58,10 @@ return require("packer").startup(function(use)
     })
     use("andweeb/presence.nvim")
     use("archibate/lualine-time")
+    use({
+        "olrtg/nvim-emmet",
+        config = function()
+            vim.keymap.set({ "n", "v" }, "<leader>ww", require("nvim-emmet").wrap_with_abbreviation)
+        end,
+    })
 end)
