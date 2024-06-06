@@ -6,7 +6,7 @@ vim.cmd([[packadd packer.nvim]])
 return require("packer").startup(function(use)
     -- Packer can manage itself
     use("wbthomason/packer.nvim")
-
+    
     use({
         "nvim-telescope/telescope.nvim",
         tag = "0.1.6",
@@ -62,6 +62,12 @@ return require("packer").startup(function(use)
         "olrtg/nvim-emmet",
         config = function()
             vim.keymap.set({ "n", "v" }, "<leader>ww", require("nvim-emmet").wrap_with_abbreviation)
+        end,
+    })
+    use({
+        "supermaven-inc/supermaven-nvim",
+        config = function()
+            require("supermaven-nvim").setup({})
         end,
     })
 end)
