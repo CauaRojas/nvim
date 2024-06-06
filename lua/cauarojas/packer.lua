@@ -6,7 +6,6 @@ vim.cmd([[packadd packer.nvim]])
 return require("packer").startup(function(use)
     -- Packer can manage itself
     use("wbthomason/packer.nvim")
-    
     use({
         "nvim-telescope/telescope.nvim",
         tag = "0.1.6",
@@ -30,8 +29,8 @@ return require("packer").startup(function(use)
     })
     use({ "nvimtools/none-ls.nvim" })
     use({ "nvim-lua/plenary.nvim" })
-    use({ "github/copilot.vim" })
-    use({ "CopilotC-Nvim/CopilotChat.nvim" })
+    --    use({ "github/copilot.vim" })
+    --   use({ "CopilotC-Nvim/CopilotChat.nvim" })
     use("nvim-tree/nvim-web-devicons")
     use("nvim-tree/nvim-tree.lua")
     use({
