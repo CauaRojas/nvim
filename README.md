@@ -6,10 +6,12 @@
 
 2. Instale uma nerd font (recomendo [JetBrains Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip))
 
-3. Instale o packer [Packer](https://github.com/wbthomason/packer.nvim)
+3. Utilize o [Windows Terminal](https://github.com/microsoft/terminal/releases)
 
-4. Instale o mingw e ripgrep
+4. Instale o packer [Packer](https://github.com/wbthomason/packer.nvim)
 
-5. Agora abra o Neovim, dê :so no arquivo Packer.lua e execute :PackerSync
+5. Instale o mingw e ripgrep
+
+6. Agora abra o Neovim, dê :so no arquivo Packer.lua e execute :PackerSync
 
 
