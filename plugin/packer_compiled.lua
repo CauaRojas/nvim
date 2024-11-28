@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["better-ts-errors.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\better-ts-errors.nvim",
+    url = "https://github.com/OlegGulevskyy/better-ts-errors.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
@@ -121,6 +126,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,

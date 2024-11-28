@@ -28,6 +28,12 @@ return require("packer").startup(function(use)
             { "L3MON4D3/LuaSnip" },
         },
     })
+    use({
+        "OlegGulevskyy/better-ts-errors.nvim",
+        requires = {
+            { "MunifTanjim/nui.nvim" },
+        },
+    })
     use({ "nvimtools/none-ls.nvim" })
     use({ "nvim-lua/plenary.nvim" })
     --    use({ "github/copilot.vim" })
