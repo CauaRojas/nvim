@@ -28,6 +28,7 @@ return require("packer").startup(function(use)
             { "L3MON4D3/LuaSnip" },
         },
     })
+    use({"windwp/nvim-ts-autotag"})
     use({
         "OlegGulevskyy/better-ts-errors.nvim",
         requires = {

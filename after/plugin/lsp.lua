@@ -34,7 +34,7 @@ require("mason-lspconfig").setup({
         end,
     },
 })
-vim.o.updatetime = 250
+vim.o.updatetime = 500
 vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
     group = vim.api.nvim_create_augroup("float_diagnostic", { clear = true }),
     callback = function()
