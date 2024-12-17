@@ -18,7 +18,6 @@ return require("packer").startup(function(use)
     use("mbbill/undotree")
     use({
         "VonHeikemen/lsp-zero.nvim",
-        branch = "v3.x",
         requires = {
             { "williamboman/mason.nvim" },
             { "williamboman/mason-lspconfig.nvim" },
