@@ -153,6 +153,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-spectre"] = {
+    loaded = true,
+    path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-spectre",
+    url = "https://github.com/nvim-pack/nvim-spectre"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
@@ -192,6 +197,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  ripgrep = {
+    loaded = true,
+    path = "C:\\Users\\cauar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
   },
   ["supermaven-nvim"] = {
     config = { "\27LJ\2\nA\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\20supermaven-nvim\frequire\0" },

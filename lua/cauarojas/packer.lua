@@ -76,4 +76,7 @@ return require("packer").startup(function(use)
             require("supermaven-nvim").setup({})
         end,
     })
+    use({"BurntSushi/ripgrep"})
+    use 'nvim-tree/nvim-web-devicons'
+    use 'nvim-pack/nvim-spectre'
 end)
